@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Accion Agency Banking</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="transactions">Transactions</string>
+    <string name="walkthrough_transactions_info">Send money, deposit, transfer and Pay bills with ease</string>
+    <string name="account_opening">Account Opening</string>
+    <string name="walkthrough_acc_openining_info">Open account at your comfort zone from any location</string>
+    <string name="make_money">Make Money</string>
+    <string name="walkthrough_makemoney_info">Make money per transaction done on the app</string>
+    <string name="login">Login</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="previous">Prev</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_forgot_password">Forgot Password</string>
+    <string name="text_forgot_password_info">Input details to change password</string>
+    <string name="proceed">Proceed</string>
+    <string name="hint_agent_id">Agent Id</string>
+    <string name="title_otp_confirmation">OTP Confirmation</string>
+    <string name="text_input_otp_info">Input the four digit code sent to your registered phone number</string>
+    <string name="title_reset_password">Reset Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="text_reset_password_info">Set a new password</string>
+    <string name="reset">Reset</string>
+    <string name="password_reset_success_msg">Your password has been reset</string>
+    <string name="click_login_to_proceed">Click login to proceed</string>
+    <string name="pword_reset">password_reset</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="dummy_amount">Balance N20,000.00</string>
+    <string name="account_number">Account Number</string>
+</resources>
+

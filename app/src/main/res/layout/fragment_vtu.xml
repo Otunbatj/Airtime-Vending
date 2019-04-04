@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vtu.VtuFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="39.9dp"
+        android:layout_marginRight="25dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <include layout="@layout/toolbar_back" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/sofia_pro_semibold"
+        android:gravity="center"
+        android:lineSpacingExtra="6sp"
+        android:text="@string/dummy_amount"
+        android:textAlignment="center"
+        android:textColor="@color/textColorDark"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginTop="45dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:layout_width="match_parent"
+            android:layout_height="46.2dp"
+            android:hint="Select Bank"
+            app:ms_hint="Select Bank"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            app:ms_padding_left="21dp"
+            android:paddingStart="21dp"
+            app:ms_arrow_tint="@color/textColor"
+            android:fontFamily="@font/sofia_pro_regular"
+            app:ms_hint_color="@color/text_normal"
+            android:textColorHint="@color/text_normal"
+            android:textColor="@color/text_normal"
+            android:textSize="16sp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            app:boxBackgroundMode="none"
+            android:paddingStart="18dp"
+            android:fontFamily="@font/sofia_pro_regular"
+            android:textColor="@color/text_normal"
+            android:textColorHint="@color/text_normal">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="46.2dp"
+                android:hint="@string/account_number"
+                android:textSize="15sp"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50.5dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/sofia_pro_regular"
+            android:text="Validate Account"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/input_password" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
